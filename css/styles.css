@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html{
+    font-size: 14px;
+} */
+.box1{
+        width: 100%;
+        /* rem是字体大小+dom的值 */
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        /* background-color: #df5555; */
+        margin-top: 1rem;
+}
+.box2{
+    width: 20rem;
+    height: 100%;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+.box3{
+    width: 100%;
+    /* calc() 计算函数 运算符前后需要留一个空格 */
+    height: calc(100vh - 7rem - 4px);
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* background-color: #691b1b; */
+}
+.a1{
+    text-decoration: none;
+    color: #000000;
+    margin: 6px;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif;
+}
+.a1:hover{
+    color: #3778E5;
+    font-weight: bold;
+}
